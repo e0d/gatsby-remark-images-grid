@@ -10,6 +10,7 @@ exports.onRenderBody = ({setHeadComponents}, pluginOptions) => {
       {`
         .${className} {
           ${pluginOptions.margin ? `margin: ${pluginOptions.margin}` : ""};
+          padding-bottom: 30px;
         }
 
         .${className}-grid {
