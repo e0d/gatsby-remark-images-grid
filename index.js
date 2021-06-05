@@ -65,7 +65,7 @@ module.exports = ({markdownAST}, pluginOptions) => {
     }
 
     node.type = "paragraph"
-    node.children = [gridNode, ...(figcaptionNode ? [figcaptionNode] : [])]
+      node.children = [...(figcaptionNode ? [figcaptionNode] : []), gridNode]
     node.data = {
       hName: "figure",
       hProperties: {
