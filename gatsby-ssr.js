@@ -24,7 +24,7 @@ exports.onRenderBody = ({setHeadComponents}, pluginOptions) => {
         }
 
         .${className}-figcaption {
-          text-align: center;
+          text-align: left;
         }
       `}
     </style>,
